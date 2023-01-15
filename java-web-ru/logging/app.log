@@ -1,0 +1,32 @@
+Jan 15, 2023 10:05:43 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Jan 15, 2023 10:05:43 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jan 15, 2023 10:05:43 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jan 15, 2023 10:05:43 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+Jan 15, 2023 10:05:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-39353"]
+Jan 15, 2023 10:05:44 AM exercise.servlet.SessionServlet login
+INFO: Попытка входа: lavern.keeling@gmail.com
+Jan 15, 2023 10:05:44 AM exercise.servlet.SessionServlet login
+INFO: Попытка входа: shoshana.haley@hotmail.com
+Jan 15, 2023 10:05:44 AM exercise.servlet.SessionServlet login
+INFO: Попытка входа: suzann.barrows@hotmail.com
+Jan 15, 2023 10:05:44 AM exercise.servlet.SessionServlet login
+INFO: Попытка входа: lavern.keeling@gmail.com
+Jan 15, 2023 10:05:44 AM exercise.servlet.SessionServlet login
+INFO: Попытка входа: lavern.keeling@gmail.com
+Jan 15, 2023 10:05:44 AM exercise.servlet.SessionServlet login
+INFO: Попытка входа: lavern.keeling@gmail.com
+Jan 15, 2023 10:05:44 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-39353"]
+Jan 15, 2023 10:05:44 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jan 15, 2023 10:05:44 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.base/java.io=null" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+Jan 15, 2023 10:05:44 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesRmiTargets
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=null" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+Jan 15, 2023 10:05:44 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-39353"]
